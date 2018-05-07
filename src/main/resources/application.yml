@@ -1,2 +1,11 @@
-server.port=8088
-spring.application.name=open-feign-client
+server: 
+  port: 8088
+  application: 
+    name: open-feign-client
+    
+feign:
+  client:
+    config:
+      weather:
+        errorDecoder: com.example.ofc.feign.MyErrorDecoder
+        retryer: com.example.ofc.feign.MyRetryer
