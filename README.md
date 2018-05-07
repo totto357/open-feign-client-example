@@ -19,3 +19,4 @@ mvn spring-boot:run
 ## 解説記事
 
 [Feign(OpenFeign)を使ってアノテーションだけでAPIクライアントを実装する](https://qiita.com/totto357/items/90f9276697edec08a4ba)
+[Feign(OpenFeign)でリトライ処理をする](https://qiita.com/totto357/items/8a462027a3c2bb2c8134)
